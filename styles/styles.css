@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+}
+
+#header {
+    display: flexbox;
+    background-color: antiquewhite;
+    padding: 1%;
+    height: 20vh;
+}
