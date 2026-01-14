@@ -3,8 +3,15 @@
 }
 
 #header {
-    display: flexbox;
+    display: flex;
     background-color: antiquewhite;
     padding: 1%;
     height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 500%;
 }
