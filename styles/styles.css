@@ -3,8 +3,41 @@
 }
 
 #header {
-    display: flexbox;
-    background-color: antiquewhite;
+    display: flex;
+    background-color: lightblue;
     padding: 1%;
     height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header img {
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 500%;
+}
+
+#flexnav {
+    display: flex;
+    padding: 5px;
+    background-color: #dcd8af;
+    margin-bottom: 10px;
+    margin-top: 1em;
+    width: 50%;
+    height: 66%;
+    align-items: center;
+}
+
+#flexnav a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #638a7e;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    width: 25%;
 }
