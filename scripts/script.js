@@ -11,4 +11,5 @@ function sizeLogoToNav() {
 
 // run after layout
 window.addEventListener('load', sizeLogoToNav);
+window.addEventListener("DOMContentLoaded", (event) => { sizeLogoToNav; })
 window.addEventListener('resize', sizeLogoToNav);

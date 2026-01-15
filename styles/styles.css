@@ -20,12 +20,9 @@ html {
     align-items: center;
 }
 
-.logo-link {
-    display: block;
-}
-
-.logo-link img {
-    height: 4.5vw; /* default so it doesn’t flash wrong size */
+#header img {
+    height: 4.5vw;
+    flex-grow: 1;
     display: block;
 }
 
@@ -61,6 +58,7 @@ html {
     flex: 1 1 150px;
     font-size: 2vw;
     font-family: "Montserrat", sans-serif;
+    flex-grow: 1;
 }
 
 h1 {

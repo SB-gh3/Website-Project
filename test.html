@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            background-color: lightblue;
+        }
+
+        #flexnav {
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
+
+        #header img {
+            flex-grow: 1;
+            /* height: ??? */
+            height: 50px;
+            display: block;
+        }
+
+        #flexnav a {
+            display: flex;
+            background-color: antiquewhite;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="about.html">
+            <img src="images/logo.png">
+        </a>
+
+        <div id="flexnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="showcase.html">Showcase</a>
+            <a href="mailto:gofft1@mcmaster.ca">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
