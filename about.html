@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <style>
-        *{
+        body{
             background-color:rgb(102, 188, 238);
         }
 
@@ -27,46 +27,75 @@
             background-color: beige;
         }
 
+        #header{
+            background-color: antiquewhite;
+        }
+
+        .team{
+            display: flex;
+            gap: 20px;
+        }
+
+        @media (max-width: 700px)
+        {
+            .team{
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+        }
+
 
 
     </style>
 </head>
 <body>
-    <h1>Introduction of our team</h1>
-    <h2>Team: Swath</h2>
+    <div id = "header">
+        <h1>Introduction of our team</h1>
+        <h2>Team: Swath</h2>
+    </div>
     <p id = "sp" ><strong>Nothing is impossible</strong></p>
+    
     <ol>
-        <li>
-            Trevor
-            <p id = "r">Role: Leader</p>
-            <img src = "images/trevor.jpg" width="120">
-            <p>Click <a class = "link" href = "https://cs1xd3.cas.mcmaster.ca/~gofft1/?C=S;O=A"> Link 1</a> for more my inform</p>
-        <p></p>
-        <li>
-            Spencer
-            <p id = "r">Role: Assist</p>
-            <p>Click <a class = "link" href = "https://cs1xd3.cas.mcmaster.ca/~bailes15/">Link 2</a> for more my inform</p>
-        </li>
-        <p></p>
-        <li>
-            Harris
-            <p id = "r">Role: programmer</p>
-            <img src = "Screenshot 2025-02-24 112837.png" width = "120">
-            <p>Click <a class = "link" href = "file:///C:/Users/Harris%20Cheng/Downloads/public_html/FIrst%20Week%20Lab/index.html.html"> Link 3</a> for more my inform</p>
-        </li>
-        <p></p>
-        <li>
-            Winston
-            <p id = "r"> Role: Designer</p>
-            <img src = "images/WinstonPhoto.jpg" width = "120">
-            <p>Click <a class = "link" href = "https://cs1xd3.cas.mcmaster.ca/~luw51/">Link 4</a> for more my infore</p>
-        </li>
-        <p></p>
-        <li>
-            Ali
-            <p id = "r">Role: Designer</p>
-        </li>    
+        <div class = "team">
+            <li>
+                Trevor
+                <p id = "r">Role: Leader</p>
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~gofft1/" target = "_blank">
+                    <img src = "images/trevor.jpg" width="120" alt = "Person Page">
+                </a>
+            <p></p>
+            <li>
+                Spencer
+                <p id = "r">Role: Assist</p>
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~bailes15/" target="_blank">
+                </a>
+            </li>
+            <p></p>
+            <li>
+                Harris
+                <p id = "r">Role: programmer</p>
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~chengh65/">
+                <img src = "Screenshot 2025-02-24 112837.png" width = "120" alt = "Person Page" >
+                </a>
+            </li>
+            <p></p>
+            <li>
+                Winston
+                <p id = "r"> Role: Designer</p>
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~luw51/">
+                <img src = "images/WinstonPhoto.jpg" width = "120" alt = "Person Page">    
+                </a>
+            </li>
+            <p></p>
+            <li>
+                Ali
+                <p id = "r">Role: Designer</p>
+            </li>   
+        </div> 
     </ol>
+
+    <p>Click the image to discover more our information</p>
     
 </body>
 </html>
