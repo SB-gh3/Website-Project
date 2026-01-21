@@ -1,0 +1,42 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #222;
+    padding: 0px;
+}
+
+.container {
+    padding: 2%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
