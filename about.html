@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-        <script src="scripts/script.js"></script> 
+    <script src="scripts/script.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
         
     <style>
         body{
@@ -29,10 +33,6 @@
             background-color: beige;
         }
 
-        #header{
-            background-color: antiquewhite;
-        }
-
         .team{
             display: flex;
             gap: 50px;
@@ -54,18 +54,26 @@
 </head>
 
 <body>
-    <div id = "header">
-        <h1>Introduction of our team</h1>
-        <h2>Team: Swath</h2>
-    </div>
-    <p id = "sp" ><strong>Nothing is impossible</strong></p>
-    
+    <div id="header">
+       <a href="about.html" class="logo-link">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <div id="flexnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="showcase.html">Showcase</a>
+            <a href="mailto:gofft1@mcmaster.ca">Contact</a>
+        </div>
+        <p>"Nothing is<br>Impossible"</p>
+    </div>    
+
     <ol>
         <div class = "team">
             <li>
                 Trevor
                 <p id = "r">Role: Leader</p>
-                <a href = "https://cs1xd3.cas.mcmaster.ca/~gofft1/" target = "_blank">
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~gofft1/Portfolio" target = "_blank">
                     <img src = "images/trevor.jpg" width="120" alt = "Person Page">
                 </a>
             <p></p>
@@ -80,7 +88,7 @@
                 Harris
                 <p id = "r">Role: programmer</p>
                 <a href = "https://cs1xd3.cas.mcmaster.ca/~chengh65/">
-                <img src = "Screenshot 2025-02-24 112837.png" width = "120" alt = "Person Page" >
+                <img src = "images/Harris.png" width = "120" alt = "Person Page" >
                 </a>
             </li>
             <p></p>
@@ -95,6 +103,8 @@
             <li>
                 Ali
                 <p id = "r">Role: Designer</p>
+                <a href = "https://cs1xd3.cas.mcmaster.ca/~abdua19/">
+                <img src = "images/Ali.jpg" width = "120" alt = "Person Page">
             </li>   
         </div> 
     </ol>

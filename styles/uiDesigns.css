@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    padding: 0px;
+}
+
+/* Outer 2-column layout */
+.outer-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+/* Each main column */
+.main-column {
+    flex: 1;
+    align-items: center;
+}
+
+/* Inner 2-column flexbox */
+.inner-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Individual content cards */
+.card {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content {
+    margin: 2%;
+}
+
+/* Responsive behaviour */
+@media (max-width: 768px) {
+    .outer-container {
+        flex-direction: column;
+    }
+
+    .inner-grid {
+        flex-direction: column;
+    }
+}
