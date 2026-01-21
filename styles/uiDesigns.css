@@ -9,7 +9,6 @@ body {
     padding: 0px;
 }
 
-/* Outer 2-column layout */
 .outer-container {
     display: flex;
     gap: 1.5rem;
@@ -17,13 +16,11 @@ body {
     padding: 2%;
 }
 
-/* Each main column */
 .main-column {
     flex: 1;
     align-items: center;
 }
 
-/* Inner 2-column flexbox */
 .inner-grid {
     display: flex;
     flex-direction: column;
