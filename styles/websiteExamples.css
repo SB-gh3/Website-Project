@@ -40,3 +40,33 @@ p {
         padding: 1rem;
     }
 }
+
+.qna details {
+    border-bottom: 1px solid #ddd;
+    padding: 0.75rem 0;
+}
+
+.qna summary {
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 1.5rem;
+}
+
+.qna summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+}
+
+.qna details[open] summary::after {
+    content: "−";
+}
+
+.qna p {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #444;
+}
